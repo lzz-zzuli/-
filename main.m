@@ -45,8 +45,8 @@ z = x + noise;
 zz = z.*expanded_m_bpsk;
 r = x.*expanded_m_bpsk;
 
-r_normal = bpsk2nomal(r);
-zz_normal = bpsk2nomal(zz);
+r_normal = bpsk2nomal(r,0);
+zz_normal = bpsk2nomal(zz,0);
 disp('----------------------------\n\n\nn\n\n\n\n\n\nn\n\nn\n\nn\n\nn\\n\n\n\n');
 sum = 0;
 for ii = 1:889

@@ -1,5 +1,13 @@
 
 function [mg] = m_generate(bin)
+%函数的功能：输入7为二进制序列，生成127为的m序列
+%函数的描述：
+%函数的使用：y=m_generate(input1)
+%输入：
+%     input1:二进制序列
+%输出：
+%     Y:m序列
+%注意事项：输入应该为字符串
     c = [0 ,1 ,1];
     bin = bin2array(bin);
     n = length(bin);
