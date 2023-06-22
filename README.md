@@ -12,3 +12,4 @@ MATALB环境下直接序列扩频系统的仿真验证
 5）绘制出各个主要环节的信号波形；
 ##
 6）根据波形分析信道干扰对扩频通信的影响。
+![alllllled](https://github.com/lzz-zzuli/-/assets/76641525/c3feb397-2809-4a79-89ee-272077af4e5c)
